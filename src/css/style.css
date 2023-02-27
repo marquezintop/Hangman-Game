@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.chooseWord {
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #27AE60;
+    border-radius: 8px;
+    position: absolute;
+    top: 89px;
+    right: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.hangman{
+    width: 400px;
+    height: 466.67px;
+    margin-top: 59px;
+    margin-left: 38px;
+}
+
+.wordSpace{
+    width: 600px;
+    height: 100px;
+    margin-left: 1000px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.word{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.letters {
+    display: flex;
+    flex-wrap: wrap;
+    width: 680px;
+    margin-left: 350px;    
+}
+
+.letters button {
+    width: 40px;
+    height: 40px;
+    background: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 6px;
+    padding-left: 14px;
+}
+.victory {
+    color: #27AE60;
+}
