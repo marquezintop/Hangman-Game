@@ -10,18 +10,15 @@
     color: #ffffff;
     background-color: #27AE60;
     border-radius: 8px;
-    position: absolute;
-    top: 89px;
-    right: 53px;
+    margin-left: 1400px;
+    margin-top: -450px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
     display: flex;
     align-items: center;
     padding-left: 25px;
-
 }
 
 .hangman{
@@ -36,6 +33,7 @@
     height: 100px;
     margin-left: 1000px;
     margin-bottom: 30px;
+    margin-top: 340px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -51,8 +49,8 @@
 .letters {
     display: flex;
     flex-wrap: wrap;
-    width: 680px;
-    margin-left: 350px;    
+    width: 700px;
+    margin-left: 400px;    
 }
 
 .letters button {
@@ -62,19 +60,19 @@
     border: 1px solid #7AA7C7;
     border-radius: 3px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
     display: flex;
     align-items: center;
     text-align: center;
     margin: 6px;
     padding-left: 14px;
 }
+
 .win {
     color: #27AE60;
 }
+
 .lose {
     color: #FF0000;
 }
