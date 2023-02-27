@@ -5,7 +5,7 @@ function Letras({disabled, letter, searchLetter}){
             data-test="letter"
             disabled={disabled}
             onClick={searchLetter}> 
-            {letter} 
+            {letter}
             </button>
         </>
     )

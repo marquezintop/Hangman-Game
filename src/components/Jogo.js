@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Letras from "./Letras"
-import palavras from "./palavras"
+import palavras from "../palavras"
 import alfabeto from "./alfabeto"
 import forca0 from "../assets/forca0.png"
 import forca1 from "../assets/forca1.png"
@@ -16,7 +16,7 @@ export default function Jogo(){
 
   const [disabled, setDisabled] = useState(true)
   const [lettersUsed, setLettersUsed] = useState([])
-  const [numberImage, setnumberImage] = useState(0)
+  const [numberImage, setNumberImage] = useState(0)
   const [chosenWord, setChosenWord] = useState()
   const [showingWord, setShowingWord] = useState()
   const [winOrLose, setWinOrLose] = useState('')
@@ -49,11 +49,18 @@ export default function Jogo(){
             if (chosenWord[j] === showingWord[j]) {
               itsRigth += 1
               if (itsRigth === chosenWord.length) {
-                setWinOrLose('victory')
-              }
+                setWinOrLose('win')
             }
           }
+        }
       }
+    }
+  } else {
+    let numberErrors = numberImage + 1
+    setNumberImage(numberErrors)
+    if (numberErrors === 6) {
+      setShowingWord(chosenWord)
+      setWinOrLose('lose')
     }
   }
 }
@@ -69,7 +76,11 @@ export default function Jogo(){
             </div>
         <div className="letters">
           {alfabeto.map((letter) => (
-            <Letras disabled={(lettersUsed.includes(letter)) ? true : disabled} letter={letter} searchLetter={() => searchLetter(letter)}/>
+            <Letras 
+            disabled={(lettersUsed.includes(letter)) ? true : disabled} 
+            letter={letter} 
+            searchLetter={() => searchLetter(letter)}
+            key = {letter}/>
           ))}
         </div>
       </div>

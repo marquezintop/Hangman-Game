@@ -72,6 +72,9 @@
     margin: 6px;
     padding-left: 14px;
 }
-.victory {
+.win {
     color: #27AE60;
+}
+.lose {
+    color: #FF0000;
 }
