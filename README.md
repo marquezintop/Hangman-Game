@@ -3,7 +3,7 @@
 Do you want to play a fast and hard Hangman Game? This Hangman Game of more than 600+ english words
 let you play as long as you want.
 
-Try it out now at 
+Try it out now at: https://hangman-game-brown.vercel.app
 
 ## About
 
