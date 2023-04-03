@@ -19,10 +19,10 @@ By using this app you can play a fast, but difficult Hangman Game, as you can on
 ## Technologies
 The following tools and frameworks were used in the construction of the project:<br>
 <p>
-    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"><img style='margin: 5px;' src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'></a>
-    <img style='margin: 5px;' src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'>
-    <img style='margin: 5px;' src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white'>
-    <img style='margin: 5px;' src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'>
+    <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank"><img style='margin: 5px;' src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img style='margin: 5px;' src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'></a>
+    <a href="https://styled-components.com/docs" target="_blank"><img style='margin: 5px;' src='https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white'></a>
+    <a href="https://react.dev/learn" target="_blank"><img style='margin: 5px;' src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'></a>
 </p>
 
 ## How to run
